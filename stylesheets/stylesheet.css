@@ -35,13 +35,28 @@ a {
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
-.section-content-edu {
-		background: black;
-		color:white;
-	}
-	.section-content-edu .title{
-		text-align:left;
-	}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+	 background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
