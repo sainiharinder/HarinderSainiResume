@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us"  ng-app="harinderResume">
   <head>
     <meta charset="UTF-8">
     <title>Angularjsdemo by sainiharinder</title>
@@ -8,6 +8,10 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+	      <!-- load angular-->
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+          <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+      <script src="stylesheets/script.js"></script>
   </head>
   <body>
     <section class="page-header">
@@ -19,7 +23,7 @@
       <a href="https://github.com/sainiharinder/angularJSDemo" class="btn">Expertise</a>
       <a href="https://github.com/sainiharinder/angularJSDemo/zipball/master" class="btn">Services</a>
       <a href="https://github.com/sainiharinder/angularJSDemo/tarball/master" class="btn">Testimonials</a>
-	        <a href="https://github.com/sainiharinder/angularJSDemo/tarball/master" class="btn">Contact Me</a>
+	        <a href="#contact" class="btn">Contact Me</a>
     </section>
 
     <section class="main-content">
@@ -55,7 +59,7 @@
       </footer>
 
     </section>
-
+<div ng-view></div>
   
   </body>
 </html>
