@@ -34,6 +34,12 @@
                 controller  : 'contactController'
             });
 			
+			// route for the skill page
+            .when('/contact', {
+                templateUrl : 'skill.html',
+                controller  : 'skillController'
+            });
+			
     });
 
     // create the controller and inject Angular's $scope
