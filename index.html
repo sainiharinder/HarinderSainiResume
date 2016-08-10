@@ -12,7 +12,44 @@
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
           <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
       <script src="stylesheets/script.js"></script>
+	  
+	  ///
+	  
+	  
+	  
+	      <base href="http://demos.telerik.com/kendo-ui/progressbar/angular">
+    <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <title></title>
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.default.mobile.min.css" />
+
+    <script src="//kendo.cdn.telerik.com/2016.2.714/js/jquery.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2016.2.714/js/angular.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2016.2.714/js/kendo.all.min.js"></script>
   </head>
+  <script>
+  angular.module("KendoDemos", [ "kendo.directives" ])
+      .controller("MyCtrl", function($scope, $timeout){
+          $scope.status = "Working...";
+          $scope.css = 75;
+		  $scope.HTML = 70;
+		  $scope.PHP = 80;
+		  $scope.JavaScript = 80;
+		  $scope.JQuery = 75;
+		  $scope.Angular = 40;
+		  $scope.WordPress = 80;
+		  $scope.Joomla = 85;
+		  $scope.Drupal = 40;
+		  $scope.CodeIgniter = 40;
+		    $scope.Android = 50;
+		  $scope.SQL = 85;
+         
+        
+          
+  })
+</script>
+
   <body>
     <section class="page-header">
       <h1 class="project-name">Harinder Saini</h1>
