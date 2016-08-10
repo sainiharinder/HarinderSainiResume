@@ -173,7 +173,8 @@ a {
   color: #819198;
   }
   .main-content blockquote > :first-child {
-    margin-top: 0; }
+    margin-top: 0;
+text-align:justify;	}
   .main-content blockquote > :last-child {
     margin-bottom: 0; }
 .main-content table {
