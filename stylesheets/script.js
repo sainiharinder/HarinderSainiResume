@@ -33,11 +33,7 @@
                 templateUrl : 'contact.html',
                 controller  : 'contactController'
             });
-			 // route for the contact page
-            .when('/skill', {
-                templateUrl : 'skill.html',
-                controller  : 'skillController'
-            });
+			
     });
 
     // create the controller and inject Angular's $scope
@@ -52,7 +48,4 @@
 
     harinderResume.controller('contactController', function($scope) {
         $scope.message = 'Contact us! JK. This is just a demo.';
-    });
-	harinderResume.controller('skillController', function($scope) {
-        $scope.message = 'skill ! JK. This is just a demo.';
     });
