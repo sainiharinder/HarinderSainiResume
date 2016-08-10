@@ -27,6 +27,12 @@
                 templateUrl : 'about.html',
                 controller  : 'aboutController'
             })
+			
+			 // route for the skill page
+            .when('/skill', {
+                templateUrl : 'skill.html',
+                controller  : 'skillController'
+            })
 
             // route for the contact page
             .when('/contact', {
@@ -40,6 +46,10 @@
 
     // create the controller and inject Angular's $scope
     harinderResume.controller('mainController', function($scope) {
+        // create a message to display in our view
+        $scope.message = 'Everyone come and see how good I look!';
+    });
+	harinderResume.controller('skillController', function($scope) {
         // create a message to display in our view
         $scope.message = 'Everyone come and see how good I look!';
     });
