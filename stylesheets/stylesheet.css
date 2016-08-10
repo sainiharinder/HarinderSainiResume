@@ -28,13 +28,20 @@ a {
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
   .btn + .btn {
     margin-left: 1rem; }
+	
 
 .btn:hover {
   color: #0000FF;
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
-
+.section-content-edu {
+		background: black;
+		color:white;
+	}
+	.section-content-edu .title{
+		text-align:left;
+	}
 @media screen and (min-width: 64em) {
   .btn {
     padding: 0.75rem 1rem; } }
