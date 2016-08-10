@@ -46,14 +46,14 @@ a {
 
 .nav {
     float: left;
-    
+    width:40%;
 color:#fff;
 	
 }
 
 
 .article {
-    margin-left: 170px;
+    float:center;
    
     padding: 1em;
     overflow: hidden;
