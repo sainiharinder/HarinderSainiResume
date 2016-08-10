@@ -34,16 +34,10 @@
                 controller  : 'contactController'
             });
 			
-			// route for the skill page
-            .when('/skill', {
-                templateUrl : 'skill.html',
-                controller  : 'skillController'
-            });
+			
 			
     });
-harinderResume.controller('skillController', function($scope) {
-        $scope.message = 'Contact us! JK. This is just a demo.';
-    });
+
     // create the controller and inject Angular's $scope
     harinderResume.controller('mainController', function($scope) {
         // create a message to display in our view
