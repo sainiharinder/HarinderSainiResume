@@ -38,18 +38,17 @@ a {
 div.container {
     width: 100%;
     color:#fff;
-	background-color:rgb(0, 128, 128)	;
-  border-color: rgb(0, 128, 128)	
+	background-color:#3295be	;
+  
 }
 
 
 
 nav {
     float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
-	 background-color: rgba(255, 255, 255, 0.2);
+    
+
+	
 }
 
 
