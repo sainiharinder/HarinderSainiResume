@@ -51,7 +51,7 @@
     });
 	harinderResume.controller('skillController', function($scope) {
         // create a message to display in our view
-        $scope.message = 'Everyone come and see how good I look!';
+        $scope.message = 'Everyone come and see how good I look!';alert("test");
 		
 var ctx = document.getElementById('my_canvas').getContext('2d');
 var al = 0;
@@ -77,7 +77,7 @@ function progressSim(){
 	al++;
 }
 var sim = setInterval(progressSim, 50);
-
+		
     });
 
     harinderResume.controller('aboutController', function($scope) {
