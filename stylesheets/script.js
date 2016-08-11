@@ -78,8 +78,6 @@ function progressSim(){
 }
 var sim = setInterval(progressSim, 50);
 
- angular.module("KendoDemos", [ "kendo.directives" ])
-      .controller("MyCtrl", function($scope, $timeout){
           $scope.status = "Working...";
           $scope.css = 75;
 		  $scope.HTML = 70;
@@ -96,7 +94,7 @@ var sim = setInterval(progressSim, 50);
          
         
           
-  });
+  
   alert("testaaaaaaa);
 		
     });
