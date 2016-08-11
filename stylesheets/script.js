@@ -45,7 +45,11 @@
                 controller  : 'contactController'
             });
 			
-			
+			 // route for the latest page
+            .when('/latest', {
+                templateUrl : 'latest.html',
+                controller  : 'latestController'
+            });
 			
     });
 
