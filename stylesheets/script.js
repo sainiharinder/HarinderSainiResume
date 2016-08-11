@@ -96,7 +96,7 @@ var sim = setInterval(progressSim, 50);
          
         
           
-  })alert("testaaaaaaa);
+  });alert("testaaaaaaa);
 		
     });
 
