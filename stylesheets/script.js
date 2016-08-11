@@ -77,12 +77,32 @@ function progressSim(){
 	al++;
 }
 var sim = setInterval(progressSim, 50);
+$scope.status = "Working...";
+          $scope.css = 75;
+		  $scope.HTML = 70;
+		  $scope.PHP = 80;
+		  $scope.JavaScript = 80;
+		  $scope.JQuery = 75;
+		  $scope.Angular = 40;
+		  $scope.WordPress = 80;
+		  $scope.Joomla = 85;
+		  $scope.Drupal = 40;
+		  $scope.CodeIgniter = 40;
+		    $scope.Android = 50;
+		  $scope.SQL = 85;
 		
     });
 
     harinderResume.controller('aboutController', function($scope) {
         $scope.message = 'Web developer from Canada, Vancouver with 3 years of experience in web development. Strong client relationship management, user-facing and presentation skills. Reputation for success in handling multiple high-profile projects in stringent timelines. Highly adept at developing and implementing test strategies, release test plans, reviewing test case, data, operational procedures, quality methodologies, software development life cycle (SDLC) methodologies to support development and release of business applications. Involved in creating responsive, creative SEO friendly website, sitemap submission in various search engines. Extensive hands-on experience with PHP, WordPress, Joomla, Drupal, JavaScipt, JQuery, Ajax, SQL Server, MVC, CodeIgniter, Android and JAVA application development.';
     });
+	
+	
+          
+         
+        
+          
+
 
     harinderResume.controller('contactController', function($scope) {
         $scope.message = 'Contact us! JK. This is just a demo.';
