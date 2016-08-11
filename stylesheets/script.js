@@ -77,7 +77,7 @@ function progressSim(){
 	al++;
 }
 var sim = setInterval(progressSim, 50);
-alert("testaaaaaaa);	
+
     });
 
     harinderResume.controller('aboutController', function($scope) {
