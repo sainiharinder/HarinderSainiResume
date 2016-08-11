@@ -51,7 +51,7 @@
     });
 	harinderResume.controller('skillController', function($scope) {
         // create a message to display in our view
-        $scope.message = 'Everyone come and see how good I look!';alert("test");
+        $scope.message = 'Everyone come and see how good I look!';
 		
 var ctx = document.getElementById('my_canvas').getContext('2d');
 var al = 0;
@@ -77,20 +77,7 @@ function progressSim(){
 	al++;
 }
 var sim = setInterval(progressSim, 50);
-$scope.status = "Working...";
-          $scope.css = 75;
-		  $scope.HTML = 70;
-		  $scope.PHP = 80;
-		  $scope.JavaScript = 80;
-		  $scope.JQuery = 75;
-		  $scope.Angular = 40;
-		  $scope.WordPress = 80;
-		  $scope.Joomla = 85;
-		  $scope.Drupal = 40;
-		  $scope.CodeIgniter = 40;
-		    $scope.Android = 50;
-		  $scope.SQL = 85;
-		
+
     });
 
     harinderResume.controller('aboutController', function($scope) {
