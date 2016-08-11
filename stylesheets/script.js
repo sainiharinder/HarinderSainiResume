@@ -77,26 +77,7 @@ function progressSim(){
 	al++;
 }
 var sim = setInterval(progressSim, 50);
-
-          $scope.status = "Working...";
-          $scope.css = 75;
-		  $scope.HTML = 70;
-		  $scope.PHP = 80;
-		  $scope.JavaScript = 80;
-		  $scope.JQuery = 75;
-		  $scope.Angular = 40;
-		  $scope.WordPress = 80;
-		  $scope.Joomla = 85;
-		  $scope.Drupal = 40;
-		  $scope.CodeIgniter = 40;
-		    $scope.Android = 50;
-		  $scope.SQL = 85;
-         
-        
-          
-  
-  alert("testaaaaaaa);
-		
+alert("testaaaaaaa);	
     });
 
     harinderResume.controller('aboutController', function($scope) {
