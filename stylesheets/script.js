@@ -44,7 +44,7 @@
                 templateUrl : 'contact.html',
                 controller  : 'contactController'
 				
-				$(document).ready(function(){
+		$function(){
 
         $("div").animate({left: '250px'});
 
