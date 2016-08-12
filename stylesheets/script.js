@@ -61,11 +61,7 @@ var diff;
 	ctx.beginPath();
 	ctx.arc(35, 35, 30, start, diff/10+start, false);
 	ctx.stroke();
-	if(al >= 90){
-		clearTimeout(sim);
-	   
-	}
-
+	
 
             })
 			
