@@ -50,7 +50,7 @@ var start = 4.72;
 var cw = ctx.canvas.width;
 var ch = ctx.canvas.height; 
 var diff;
-
+function progressSim(){
 	diff = ((al / 100) * Math.PI*2*10).toFixed(2);
 	ctx.clearRect(0, 0, cw, ch);
 	ctx.lineWidth = 10;
@@ -66,6 +66,8 @@ var diff;
 	   
 	}
 	al++;
+}
+var sim = setInterval(progressSim, 50);
             })
 			
 			 // route for the latest page
