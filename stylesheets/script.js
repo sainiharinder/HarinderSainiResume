@@ -44,11 +44,7 @@
                 templateUrl : 'contact.html',
                 controller  : 'contactController'
 				
-		$function(){
-
-        $("div").animate({left: '250px'});
-
-});
+		
             })
 			
 			 // route for the latest page
