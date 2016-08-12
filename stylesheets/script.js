@@ -43,6 +43,7 @@
             .when('/contact', {
                 templateUrl : 'contact.html',
                 controller  : 'contactController'
+				$("div").animate({left: '250px'});
             })
 			
 			 // route for the latest page
