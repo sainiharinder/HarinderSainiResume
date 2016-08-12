@@ -43,8 +43,6 @@
             .when('/contact', {
                 templateUrl : 'contact.html',
                 controller  : 'contactController'
-	
-
             })
 			
 			 // route for the latest page
@@ -80,9 +78,6 @@
 
     harinderResume.controller('contactController', function($scope) {
         $scope.message = 'Contact us! JK. This is just a demo.';
-
-
-
     });
 	
 	
