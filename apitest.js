@@ -4,4 +4,3 @@ function setup(){
 function gotData(data){
 	println(data);
 }
-  
